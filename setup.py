@@ -14,7 +14,7 @@ if sys.argv[-1] == 'publish':
     os.system('python setup.py sdist upload')
     os.system('python setup.py bdist_wheel upload')
     print("You probably want to also tag the version now:")
-    print("  git tag -a 0.1.1 -m 'version 0.1.1'")
+    print("  git tag -a 0.1.2 -m 'version 0.1.2'")
     print("  git push --tags")
     sys.exit()
 
@@ -23,7 +23,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
     name='django-blarg',
-    version='0.1.1',
+    version='0.1.2',
     description='Django the 404 and 500 pages the fun and easy way.',
     long_description=readme + '\n\n' + history,
     author='Daniel Greenfeld',

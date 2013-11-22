@@ -12,17 +12,18 @@ django-blarg
         :target: https://crate.io/packages/django-blarg?version=latest
 
 
-Django the 404 and 500 pages the fun and easy way. 
+Django the 404 and 500 pages the blarg way.
 
 Like https://github.com/404 and https://github.com/500, but for Django.
 
 * Free software: BSD license
 * Documentation: http://django-blarg.rtfd.org.
 
-Warning
+Warnings
 --------
 
-Not yet tested in production anywhere.
+* Not yet tested in production anywhere.
+* No tests yet!
 
 Usage
 -----
