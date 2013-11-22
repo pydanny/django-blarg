@@ -68,3 +68,19 @@ Features
 * Works with Django 1.0 upwards. Maybe for earlier, test it and see!
 * Works with every version of Python ever supported by Django.
 * Works on every HTTP method.
+
+Support this Epic Project
+-------------------------
+
+* Submit issues and pull requests
+* Donations
+
+.. raw:: html
+
+    <script data-gittip-username="pydanny"
+            data-gittip-widget="button"
+            src="//gttp.co/v1.js"></script>
+
+.. raw:: html
+
+    <a class="coinbase-button" data-code="61dc94300b9820157b4088b62e90819c" data-button-style="donation_large" href="https://coinbase.com/checkouts/61dc94300b9820157b4088b62e90819c">Donate Bitcoins</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
