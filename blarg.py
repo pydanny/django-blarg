@@ -21,11 +21,13 @@ else:
 
 def error_500(request):
     # Display 500.html template as a text file, not as a Django template.
+    # Written as a Function-Based View so it handles all HTTP methods simply.
     response = HttpResponse(text)
     response.status_code = 500
     return response
 
 def error_404(request):
+    # Written as a Function-Based View so it handles all HTTP methods simply.
     response = render(request, "404.html")
     response.status_code = 404
     return response
