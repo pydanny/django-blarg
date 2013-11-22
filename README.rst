@@ -73,14 +73,6 @@ Support this Epic Project
 -------------------------
 
 * Submit issues and pull requests
-* Donations
-
-.. raw:: html
-
-    <script data-gittip-username="pydanny"
-            data-gittip-widget="button"
-            src="//gttp.co/v1.js"></script>
-
-.. raw:: html
-
-    <a class="coinbase-button" data-code="61dc94300b9820157b4088b62e90819c" data-button-style="donation_large" href="https://coinbase.com/checkouts/61dc94300b9820157b4088b62e90819c">Donate Bitcoins</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+* Donate via gittip: https://gittip.com/pydanny
+* Donate via coinbase: https://coinbase.com/checkouts/fcb91011b44028b9cfe96207eecb3bcf
+* Donate to bitcoin address: **1HydU1VrMh92UtC7sWxcL6oh1LmyFTwQQw**

@@ -24,7 +24,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 setup(
     name='django-blarg',
     version='0.1.2',
-    description='Django the 404 and 500 pages the fun and easy way.',
+    description='Django the 404 and 500 pages the blarg way.',
     long_description=readme + '\n\n' + history,
     author='Daniel Greenfeld',
     author_email='pydanny@gmail.com',
