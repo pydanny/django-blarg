@@ -53,8 +53,8 @@ Fire up the Django test server
 
 Test it out!
 
-    * http://127.0.0.1/404
-    * http://127.0.0.1/500
+    * http://127.0.0.1:8000/404
+    * http://127.0.0.1:8000/500
 
 Troubleshooting
 ---------------
