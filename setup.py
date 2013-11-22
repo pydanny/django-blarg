@@ -12,8 +12,9 @@ except ImportError:
 
 if sys.argv[-1] == 'publish':
     os.system('python setup.py sdist upload')
+    os.system('python setup.py bdist_wheel upload')
     print("You probably want to also tag the version now:")
-    print("  git tag -a %s -m 'version %s'" % (version, version))
+    print("  git tag -a 0.1.1 -m 'version 0.1.1'")
     print("  git push --tags")
     sys.exit()
 
@@ -22,7 +23,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
     name='django-blarg',
-    version='0.1.0',
+    version='0.1.1',
     description='Django the 404 and 500 pages the fun and easy way.',
     long_description=readme + '\n\n' + history,
     author='Daniel Greenfeld',

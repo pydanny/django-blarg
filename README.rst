@@ -44,6 +44,8 @@ Wire into your project's root URLConf:
         url(r"^404$", error_404, name="error_404"),
     )
 
+Fire up the Django test server
+
 .. code-block:: python
 
     python manage.py runserver
