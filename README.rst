@@ -4,13 +4,9 @@ django-blarg
 
 .. image:: https://badge.fury.io/py/django-blarg.png
     :target: http://badge.fury.io/py/django-blarg
-    
+
 .. .. image:: https://travis-ci.org/pydanny/django-blarg.png?branch=master
 ..         :target: https://travis-ci.org/pydanny/django-blarg
-
-.. image:: https://pypip.in/d/django-blarg/badge.png
-        :target: https://crate.io/packages/django-blarg?version=latest
-
 
 Django 404 and 500 pages the blarg way.
 
@@ -39,7 +35,7 @@ Wire into your project's root URLConf:
 .. code-block:: python
 
     from blarg import error_500, error_404
-    
+
     urlpatterns += patterns("",
         url(r"^500$", error_500, name="error_500"),
         url(r"^404$", error_404, name="error_404"),
