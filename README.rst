@@ -69,6 +69,5 @@ Support this Epic Project
 -------------------------
 
 * Submit issues and pull requests
-* Donate via gittip: https://gittip.com/pydanny
 * Donate via coinbase: https://coinbase.com/checkouts/fcb91011b44028b9cfe96207eecb3bcf
 * Donate bitcoins: **14nScLtnipMmQEutCaRiVPWEw9rVm4pUnG**
